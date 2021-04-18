@@ -7,7 +7,7 @@ pub struct Transaction {
 
 impl Transaction {
     ///
-    /// Return the Transaction members as a byte Vec
+    /// Return the Transaction members as a byte Vec.
     ///
     pub fn bytes(&self) -> Vec<u8> {
         let mut bytes = vec![];

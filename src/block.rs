@@ -12,7 +12,7 @@ pub struct Block {
 
 impl Block {
     ///
-    /// Creates block from previous block hash and transaction data
+    /// Creates block from previous block hash and transaction data.
     ///
     pub fn new(pre_hash: String, transaction: Vec<Transaction>) -> Self {
         let time = now();
