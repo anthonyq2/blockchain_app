@@ -1,3 +1,5 @@
+use crate::transaction::Transaction;
+
 use super::*;
 
 #[derive(Debug)]
